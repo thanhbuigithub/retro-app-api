@@ -1,0 +1,6 @@
+{
+    "name": "retro-app-api",
+    "env": {
+      "MONGODB_URI": "@my-mongodb-uri"
+    }
+  }
