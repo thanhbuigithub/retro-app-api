@@ -21,6 +21,10 @@ const boardRoute = require("./routes/board");
 app.use(express.json());
 app.use(cors());
 
+app.get('/',(req,res) => {
+  res.send("This is a api for retro app")
+})
+
 // Route Middleware
 app.use("/api/user", authRoute);
 app.use("/api/board", boardRoute);

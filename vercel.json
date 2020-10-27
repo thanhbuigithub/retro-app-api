@@ -1,6 +1,4 @@
 {
-    "name": "retro-app-api",
-    "env": {
-      "MONGODB_URI": "@my-mongodb-uri"
-    }
-  }
+    "version": 2,
+    "builds": [{ "src": "index.js", "use": "@now/node-server" }]
+}
